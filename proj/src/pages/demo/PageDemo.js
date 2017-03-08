@@ -35,7 +35,7 @@ class Page extends React.Component {
     }
 
     handleBack() {
-        salt.router.goBack();
+        location.hash = '/';
     }
 
     render() {
